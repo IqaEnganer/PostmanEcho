@@ -19,7 +19,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .body("headers.content-length", equalTo("35"))
-                .body("data", equalTo("Проверочные данныч"))
+                .body("data", equalTo("Проверочные данных"))
 
         ;
     }
